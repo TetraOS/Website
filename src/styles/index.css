@@ -1,0 +1,17 @@
+body {
+  font-family: Roboto;
+}
+
+nav {
+  position: -webkit-sticky; /* for safari */
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
